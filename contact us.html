@@ -1,0 +1,60 @@
+<html>
+<title>contact us</title>
+<head>
+<body background="F:\Documents\Kuhoo\2020\kbs book store\background2.jpg"> 
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<style>
+ {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 15%;
+  height:4%;
+  padding:12px;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top:10px;
+  margin-bottom: 30px;
+  resize:vertical;
+}
+
+input[type=submit] {
+  background-color:green;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color:white;
+  padding: 15px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <br><input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <br><label for="lname">Last Name</label>
+    <br><input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <br><label for="email">Email ID</label>
+	<br><input type="text" id="email" name="emailid" placeholder="Your email ID..">
+  <br>  <label for="subject">Subject</label>
+   <br> <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <br><input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
