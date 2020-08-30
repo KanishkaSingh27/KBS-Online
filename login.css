@@ -1,3 +1,5 @@
+<html>
+<head><title></title></head>
 .final__register-wrapper {
      background-image: -webkit-linear-gradient(10deg, #0eeff0 3%, #088f90 100%);
      background-image:linear-gradient(10deg, skyblue 3%, light blue 100%);
@@ -79,3 +81,4 @@
      box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
      border-radius: 5px;
    }
+</html>
