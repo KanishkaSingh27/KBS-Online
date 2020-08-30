@@ -1,7 +1,7 @@
 
 .final__register-wrapper {
-     background-image: -webkit-linear-gradient(10deg, #0eeff0 100%, #088f90 100%);
-     background-image:linear-gradient(10deg, skyblue 100%, light blue 100%);
+     background-image: -webkit-linear-gradient(10deg, #0eeff0 4%, #088f90 100%);
+     background-image:linear-gradient(10deg, skyblue 4%, light blue 100%);
      font-family: 'Montserrat', sans-serif; 
   position: relative;
      z-index: 3;
